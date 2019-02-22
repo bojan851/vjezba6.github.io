@@ -1,0 +1,68 @@
+/* Veliki tableti do 1200px (sirine manje od 1140px row-a) */
+@media only screen and (max-width: 1200px) {
+    .row { padding: 0 2%; }
+    
+}
+
+
+/* Od malih do velikih tableta: od 768px do 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    
+    .row { padding: 0 2%; }
+    
+    .clanovi img { width: 100%; }
+    
+    .albumi img { width: 100%; }
+
+}
+
+
+/* Od malih telefona do malih tableta: od 481px do 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    
+    .row { padding: 0 4%; }       
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+    }    
+    
+    header { float: none; }
+    
+    .heder .logo { 
+        text-align: center;
+        float: none;
+    }
+    
+    .main-nav { margin-bottom: 30px; }
+    
+    h1 { font-size: 180%;}
+    h2 { font-size: 150%;}
+    
+}
+
+
+/* Telefoni: od 0 do 480px */
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0; }
+    
+    .main-nav  {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .main-nav li {
+    display: block;
+    margin-bottom: 7px;
+    }
+    
+    header nav a {
+    padding: 5px 40%;
+    margin: 0;
+    }
+    
+}
